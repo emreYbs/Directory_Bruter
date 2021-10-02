@@ -14,5 +14,9 @@ Therefore, we can get some precaution for the leftovers.
 -You need to provide the downloaded wordlist path. In the code I wrote, I assumed the path "desktop".
 
 - You can get the connection errors as response code and the URL **(or if the connection is successful (status 200) )** 
--
+
 - I've added some of my example screenshots and **blurred the target website addresses**. *You can view the screenshots before running the code to get an idea.*
+
+- **There are not any special required libraries to import.** You may just need "pyfiglet and you can install it in the terminal:"pip3 install pyfiglet" and it is just needed for the banner. So it is nothing too important for the code to run.
+
+- _You may use the code as you wish. I can just suggest to use it for good purposes such as finding some sensitive leftover devopment files in the remote server and take the necessary precautions._ **Otherwise, someone with malicous intentions can find some sensitive info in these leftovers.**
