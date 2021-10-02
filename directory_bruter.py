@@ -40,7 +40,8 @@ TARGET = input("Which website do you want to perform a directory brute force? \n
 print ("Now, I'll try to perform directory scan in: ",TARGET)
 
 THREADS = 50
-WORDLIST = "/home/surfer/Desktop/all.txt"  #This wordlist(SVNDigger) can be gotten from Netsparker Website.
+WORDLIST = "/home/username/Desktop/all.txt"  # Here, provide the wordlist path. I assume the path as "Desktop".
+#This wordlist(SVNDigger) can be gotten from Netsparker Website.
 
 
 def get_words(resume=None):
