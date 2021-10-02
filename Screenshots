@@ -1,1 +1,65 @@
 
+
+    ____     _                            __                                 
+   / __ \   (_)  _____   ___     _____   / /_   ____     _____   __  __      
+  / / / /  / /  / ___/  / _ \   / ___/  / __/  / __ \   / ___/  / / / /      
+ / /_/ /  / /  / /     /  __/  / /__   / /_   / /_/ /  / /     / /_/ /       
+/_____/  /_/  /_/      \___/   \___/   \__/   \____/  /_/      \__, /        
+                                                              /____/         
+    ____                      __                 
+   / __ )   _____   __  __   / /_   ___     _____
+  / __  |  / ___/  / / / /  / __/  / _ \   / ___/
+ / /_/ /  / /     / /_/ /  / /_   /  __/  / /    
+/_____/  /_/      \__,_/   \__/   \___/  /_/     
+                                                 
+
+        Welcome to Directory Bruter     @author:Emre
+
+
+    The aim of this python script is to get the leftover development files,
+    debugging scripts and configutations files in the server.
+    So maybe, we can get some sensitive information by hunting common filenames and directories. 
+    Therefore, we can get some precaution for the leftovers.
+
+
+NOTE: Write the website properly like this: https://wwww.website.com 
+
+Which website do you want to perform a directory brute force? 
+
+https://www.NameofTheTargetWebsite.com
+
+
+Possible Output:
+
+-.........................................................................
+Success (200: https://www............/test.html)
+
+Success (200: https://www............/support.orig)
+....
+Success (200: https://www............/support.php)
+.
+Success (200: https://www............//support.bak)
+
+Success (200: https://www............//support.inc)
+
+Success (200: https://www................./.project)
+.............
+Success (200: https://www...............com/admin/)
+..........403 => https://www.............com/style/
+
+
+or With __Error Codes__ to give you some insight:  # _I deleted the names of the target websites for privacy, security, legal reasons._
+
+**HTTP 403 Forbidden client error status Examples:**
+
+403 => https://www..................../core.rm_auto.php
+403 => https://www...............com/core.process_compiled_include.php.inc
+403 => https://www..................../admin.bak
+403 => https://www..................../admin.php
+403 => https://www..................../admin/
+403 => https://www....................fotogezgin.com/admin.inc
+403 => https://www..................../admin.orig
+403 => https://www..................../FCKeditor/
+
+500 => https://www........................com/aspx.orig
+# HTTP status code 500 is a generic error response
