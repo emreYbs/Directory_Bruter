@@ -37,10 +37,10 @@ print(""" \tWelcome to Directory Bruter \t@author:Emre\n\n
 
 print("NOTE: Write the website properly like this: https://wwww.website.com \n")
 TARGET = input("Which website do you want to perform a directory brute force? \n")
-print ("Now, I'll try to perform directory scan in: ",TARGET)
+
 
 THREADS = 50
-WORDLIST = "/home/username/Desktop/all.txt"  # Here, provide the wordlist path. I assume the path as "Desktop".
+WORDLIST = "/home/emre/Desktop/all.txt"  # Here, provide the wordlist path. I assume the path as "username/Desktop".
 #This wordlist(SVNDigger) can be gotten from Netsparker Website. I chose the wordlist called "all.txt" when unzipped from SVNDigger. You can provide another wordlist to use, as you wish.
 
 
@@ -93,7 +93,8 @@ def dir_bruter(words):
 
 if __name__ == '__main__':
     words = get_words()
-    print('Press return to continue.')
+    print('\n\tPress return to continue.')
+    print ("Now, I'll try to perform directory scan in: ",TARGET)
     sys.stdin.readline()
     for _ in range(THREADS):
         t = threading.Thread(target=dir_bruter, args=(words,))
