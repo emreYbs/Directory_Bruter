@@ -1,4 +1,4 @@
-# Directory_Bruter, 
+# Directory_Bruter
 
 **The aim of this python script**, _@author Emre | github.com/emreYbs_, is **to get the leftover development files, debugging scripts and configutations files in the server**.
 
@@ -13,4 +13,6 @@ Therefore, we can get some precaution for the leftovers.
 
 -You need to provide the downloaded wordlist path. In the code I wrote, I assumed the path "desktop".
 
-- You can get the connection errors as response code and the URL **(or if the connection is successful (status 200) )** I've added some of my example screenshots and blurred the target website addresses. You can view the screenshots before running the code to get an idea.
+- You can get the connection errors as response code and the URL **(or if the connection is successful (status 200) )** 
+-
+- I've added some of my example screenshots and **blurred the target website addresses**. *You can view the screenshots before running the code to get an idea.*
