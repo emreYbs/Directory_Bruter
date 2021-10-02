@@ -45,7 +45,6 @@ Success (200: https://www............//support.inc)
 Success (200: https://www................./.project)
 .............
 Success (200: https://www...............com/admin/)
-..........403 => https://www.............com/style/
 
 
 or With __Error Codes__ to give you some insight:  # _I deleted the names of the target websites for privacy, security, legal reasons._
@@ -57,9 +56,10 @@ or With __Error Codes__ to give you some insight:  # _I deleted the names of the
 403 => https://www..................../admin.bak
 403 => https://www..................../admin.php
 403 => https://www..................../admin/
-403 => https://www....................fotogezgin.com/admin.inc
+403 => https://www....................com/admin.inc
 403 => https://www..................../admin.orig
 403 => https://www..................../FCKeditor/
+..........403 => https://www.............com/style/
 
 500 => https://www........................com/aspx.orig
 # HTTP status code 500 is a generic error response
