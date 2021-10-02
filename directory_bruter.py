@@ -41,7 +41,7 @@ print ("Now, I'll try to perform directory scan in: ",TARGET)
 
 THREADS = 50
 WORDLIST = "/home/username/Desktop/all.txt"  # Here, provide the wordlist path. I assume the path as "Desktop".
-#This wordlist(SVNDigger) can be gotten from Netsparker Website.
+#This wordlist(SVNDigger) can be gotten from Netsparker Website. I chose the wordlist called "all.txt" when unzipped from SVNDigger. You can provide another wordlist to use, as you wish.
 
 
 def get_words(resume=None):
