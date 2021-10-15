@@ -16,11 +16,17 @@
 # ----------------------------------------------------------------------
 # @author EmreYbs | github.com/emreYbs
 
+#           The aim of this python script is to brute-force directories
+#               with the help of a wordlist by Netsparker.
+#                   Brute force is not only for passwords but also for website directories
+#                       and this project aims to get leftover settings, etc.
+
+
 import queue
 import requests
 import sys
 import threading
-import pyfiglet
+import pyfiglet  # Not necessary for the Directory_Bruter normally. Just added for terminal "feeling" :). You can leave it and related code.
 
 AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0"
 EXTENSIONS = ['.php', '.bak', '.orig', '.inc']
