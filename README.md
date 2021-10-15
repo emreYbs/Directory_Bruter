@@ -1,9 +1,15 @@
 # Directory_Bruter
 
-**The aim of this python script**, _@author Emre | github.com/emreYbs_, is **to get the leftover development files, debugging scripts and configutations files in the server**.
 
-So maybe, we can get some sensitive information by hunting common filenames and directories. 
-Therefore, we can get some precaution for the leftovers. Also, this script will be handy for some pentest related tasks.
+![image](https://user-images.githubusercontent.com/59505246/137506689-0fa99554-4dd1-4466-9944-4cea00ca449f.png)
+
+
+![image](https://user-images.githubusercontent.com/59505246/137520206-2573536e-d0b0-4bf4-8636-5a543b25875c.png)
+
+**USAGE** : python3 directory_bruter.py
+*Example* : You just give the URL in https://www.example.com, etc. The code will ask you to provide the URL as in the screenshot 
+
+![image](https://user-images.githubusercontent.com/59505246/137521719-1eafb0df-6d6c-4fdc-9e6c-99141455c459.png)
 
 **Important Note**:
 
