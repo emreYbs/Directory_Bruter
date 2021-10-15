@@ -14,13 +14,13 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 # ----------------------------------------------------------------------
-# @author Emre | github.com/emreYbs
+# @author EmreYbs | github.com/emreYbs
 
 import queue
 import requests
 import sys
 import threading
-
+import pyfiglet
 
 AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0"
 EXTENSIONS = ['.php', '.bak', '.orig', '.inc']
@@ -29,13 +29,14 @@ from pyfiglet import Figlet
 custom_fig = Figlet(font='slant')
 print("\n\n")
 print(custom_fig.renderText('D i r e c t o r y   B r u t e r'))
-print(""" \tWelcome to Directory Bruter \t@author:Emre\n\n
+print(""" \tWelcome to Directory Bruter \t@author:EmreYbs\n\n
     The aim of this python script is to get the leftover development files,
     debugging scripts and configutations files in the server.
     So maybe, we can get some sensitive information by hunting common filenames and directories. 
     Therefore, we can get some precaution for the leftovers.\n\n""")
 
 print("NOTE: Write the website properly like this: https://wwww.website.com \n")
+TARGET = print(pyfiglet.figlet_format("Target URL", font = "bubble"))
 TARGET = input("Which website do you want to perform a directory brute force? \n")
 
 
@@ -93,8 +94,8 @@ def dir_bruter(words):
 
 if __name__ == '__main__':
     words = get_words()
-    print('\n\tPress return to continue.')
-    print ("Now, I'll try to perform directory scan in: ",TARGET)
+    print('\n\tPress return to continue.\n\n')
+    print ("\tNow, I'll try to perform directory scan in: ",TARGET)
     sys.stdin.readline()
     for _ in range(THREADS):
         t = threading.Thread(target=dir_bruter, args=(words,))
