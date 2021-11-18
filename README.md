@@ -17,6 +17,8 @@
 
 **For Windows**, you can change the / as \ and edit the wordlist path. So in a minute, you can use Directory_Bruter in Windows OS as well.If you need help, drop me a message via my e mail and I can help. OR I can also upload for Windows version.
 
+*UPDATE*:   _I've added the version for Windows version in the same repo named as *Directory_Bruter_forWin.py._
+
 - You should write the name of the target website like this: https://www.website.com  If you just provide it as "www.website.com", then you'll get an error.
 
 - I used the Netsparker's wordlist(SVNDigger). You can use this wordlist or a related one. To download directly: https://www.netsparker.com/s/research/SVNDigger.zip
