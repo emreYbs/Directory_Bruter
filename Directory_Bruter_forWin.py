@@ -1,4 +1,3 @@
-
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # @EmreYbs
@@ -26,6 +25,7 @@
 
 
 # I commented some code in order for Windows10 to run the code. For Linux, use my other version in my repo or edit the code as you wish.
+
 import queue
 import requests
 import sys
