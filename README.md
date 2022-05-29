@@ -19,13 +19,13 @@
 
 *UPDATE*:   _I've added the version for Windows version in the same repo named as *Directory_Bruter_forWin.py._
 
-- You should write the name of the target website like this: https://www.website.com  If you just provide it as "www.website.com", then you'll get an error.
+- You should write the name of the target website like this 🔗: https://www.website.com  If you just provide it as "www.website.com", then you'll get an error.
 
 - I used the Netsparker's wordlist(SVNDigger). You can use this wordlist or a related one. To download directly: https://www.netsparker.com/s/research/SVNDigger.zip
 
-- You need to provide the downloaded wordlist path. In the code I wrote, I assumed the path "desktop".
+- You need to provide the downloaded wordlist path. In the code I wrote, I assumed the path "desktop". 🖥️
 
-- You can get the connection errors as response code and the URL **(or if the connection is successful (status 200) )** 
+- You can get the connection errors as response code and the URL **(or if the connection is successful (status 200) )** ✅
 
 - I've added some of my example screenshots and **blurred the target website addresses**. *You can view the screenshots before running the code to get an idea.*
 
