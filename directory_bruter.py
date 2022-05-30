@@ -28,8 +28,8 @@ import sys
 import threading
 import pyfiglet  # Not necessary for the Directory_Bruter normally. Just added for terminal "feeling" :). You can leave it and related code.
 
-AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0"
-EXTENSIONS = ['.php', '.bak', '.orig', '.inc']
+AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/90.0"
+EXTENSIONS = ['.php', '.bak', '.orig', '.inc'] # You can add other extensions in the code if needed.
 
 from pyfiglet import Figlet
 custom_fig = Figlet(font='slant')
@@ -48,7 +48,8 @@ TARGET = input("Which website do you want to perform a directory brute force? \n
 
 THREADS = 50
 WORDLIST = "/home/emre/Desktop/all.txt"  # Here, provide the wordlist path. I assume the path as "username/Desktop".
-#This wordlist(SVNDigger) can be gotten from Netsparker Website. I chose the wordlist called "all.txt" when unzipped from SVNDigger. You can provide another wordlist to use, as you wish.
+#This wordlist(SVNDigger) can be gotten from Netsparker Website. I chose the wordlist called "all.txt" when unzipped from SVNDigger. 
+#You can provide another wordlist to use, as you wish.
 
 
 def get_words(resume=None):
