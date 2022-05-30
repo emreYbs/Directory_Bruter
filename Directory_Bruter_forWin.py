@@ -53,7 +53,9 @@ TARGET = input("Which website do you want to perform a directory brute force? \n
 
 THREADS = 50
 #WORDLIST = "/home/emreYbs/Desktop/all.txt"  # Here, provide the wordlist path. I assume the path as "username/Desktop".
-#This wordlist(SVNDigger) can be gotten from Netsparker Website. I chose the wordlist called "all.txt" when unzipped from SVNDigger. You can provide another wordlist to use, as you wish.
+#This wordlist(SVNDigger) can be gotten from Netsparker Website. I chose the wordlist called "all.txt" when unzipped from SVNDigger. 
+#You can provide another wordlist to use, as you wish.
+
 WORDLIST = "Desktop\\all.txt" # For Windows OS. You need to have the wordlist 'all' in your Windows Desktop path.Or arrange accordingly
 
 def get_words(resume=None):
