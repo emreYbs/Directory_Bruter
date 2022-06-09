@@ -23,7 +23,7 @@
 
 - You should write the name of the target website like this 🔗: https://www.website.com  If you just provide it as "www.website.com", then you'll get an error.
 
-- I used the Netsparker's wordlist(SVNDigger). You can use this wordlist or a related one. To download directly: https://www.netsparker.com/s/research/SVNDigger.zip
+- I used the Netsparker's wordlist(SVNDigger). You can use this wordlist or a related one. To download directly: https://www.netsparker.com/s/research/SVNDigger.zip  _This wordlist focuses on **php** related **leftovers**, so if you use my script, it is better to aim php backend, or use a related wordlist and give the path for that wordlist, so you can get a better security check on server. It is useful for some bugbounty related projects._
 
 - You need to provide the downloaded wordlist path. In the code I wrote, I assumed the path "desktop". 🖥️
 
